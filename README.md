@@ -29,9 +29,12 @@ This project demonstrates how to create an AI Agent in [n8n](https://n8n.io) tha
 
 ## 📸 Workflow Diagram
 
-![Workflow Screenshot](./docs/Screenshot (48).png)
+![Workflow Screenshot](./docs/Screenshot(48).png)
 
 ---
+
+![Demo](https://your-uploaded-gif-or-video-link.gif)
+
 
 ## 💡 Sample Inputs to Test
 
