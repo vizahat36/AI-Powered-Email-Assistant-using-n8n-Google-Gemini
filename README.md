@@ -1,42 +1,64 @@
-
+ """
 # 🤖 AI-Powered Email Assistant using n8n + Google Gemini
 
-This project demonstrates how to create an AI Agent in [n8n](https://n8n.io) that interprets user chat messages and sends intelligent emails using natural language processing.
+This project showcases the creation of a smart and proactive AI Agent using [n8n](https://n8n.io) that intelligently understands user chat messages and sends well-structured emails using Google Gemini's powerful language capabilities.
 
 ---
 
-## 🛠️ Components Used
+## 🔧 Components Overview
 
 - **Trigger:** `When Chat Message Received`
 - **AI Agent:** Configured with:
-  - `Google Gemini Chat Model` (for understanding the message)
-  - `Simple Memory` (to remember previous info)
-  - `Send email in Send Email` (to send the actual email)
+  - `Google Gemini Chat Model` → Natural Language Understanding (NLU)
+  - `Simple Memory` → Maintains conversation and context
+  - `Send Email Tool` → Sends professionally formatted emails
 
 ---
 
-## 🧠 AI Agent Instructions
+## 🤖 AI Agent Persona: *Email Genie*
 
-> You are **Email Genie**, a smart and friendly assistant that receives user chat messages and sends emails.
-> - Extract recipient email, subject, and body from the message.
-> - If something is missing, ask the user for it.
-> - Use the "Send email" tool to send the composed message.
-> 
-> Example:  
-> "Send an email to john@example.com about the project meeting tomorrow at 3PM."
+> You are **Email Genie**, a helpful, friendly, and efficient AI assistant.
+> - Interpret user's natural chat messages.
+> - Extract key email elements: recipient, subject, and body.
+> - Ask for missing information if needed.
+> - Use the "Send email" tool to dispatch the email professionally.
+
+**Example Query:**
+Send an email to john@example.com about the project meeting tomorrow at 3 PM.
+
+yaml
+Always show details
+
+Copy
 
 ---
 
-## 📸 Workflow Diagram
 
-![Workflow Screenshot](./docs/Screenshot (48).png)
+## 🧠 Workflow Diagram
+
+Here is the AI Agent design within the n8n visual flow:
+
+![AI Agent Diagram](./docs/ai_agent_diagram.png)
+
+### 📸 Screenshot of Live n8n Workflow
+
+![Workflow Screenshot](./docs/ai_agent_model.png)
 
 ---
 
-![Demo](https://your-uploaded-gif-or-video-link.gif)
+
+## 🎥 Demo Video
+
+👉 [Watch the Demo on Google Drive](https://drive.google.com/file/d/1X6ovRPQ0zWgQejIAU-poZjWYPfHoMkb7/view?usp=sharing)
+
+*(Replace with actual Drive link once uploaded)*
+
+---
 
 
-## 💡 Sample Inputs to Test
+## 💡 Example Inputs to Test
+
+Try the following messages:
 
 1. `Send an email to vijahath@gmail.com with subject "Update" and body "AI agent is now live!"`
 2. `Email Raj at raj@example.com and tell him the demo is postponed.`
@@ -44,18 +66,46 @@ This project demonstrates how to create an AI Agent in [n8n](https://n8n.io) tha
 
 ---
 
-## 📌 Technologies Used
 
-- **n8n (No-code workflow automation)**
-- **Google Gemini (Chat Model)**
-- **SMTP (Email sending)**
-- **Simple Memory (State retention)**
+## 🛠️ Technologies Used
+
+- **n8n** – Visual automation platform
+- **Google Gemini Chat Model** – Natural language chat processing
+- **Simple Memory Node** – Persistent memory for context
+- **SMTP / Send Email Tool** – For sending emails dynamically
 
 ---
 
-## 🚀 Future Improvements
 
-- Dynamic email templates
-- Scheduled email reminders
-- Smart reply detection
-](https://drive.google.com/file/d/1X6ovRPQ0zWgQejIAU-poZjWYPfHoMkb7/view?usp=sharing)
+## 🚀 Future Enhancements
+
+- 📅 Scheduled or recurring email support
+- 📥 Auto-replies and smart email threading
+- 🧠 Contextual response templates based on email type
+- 🔒 Secure OAuth-based email sending options
+
+---
+
+
+## 📂 Project Structure
+
+.
+├── README.md
+├── docs/
+│ ├── Screenshot (48).png
+│ └── ai_agent_diagram.png
+├── prompts/
+│ └── ai_agent_prompt.txt
+
+yaml
+Always show details
+
+Copy
+
+---
+
+
+## 🙌 Contribution & License
+
+Feel free to fork or suggest improvements. Licensed under MIT.
+"""
