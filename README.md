@@ -51,7 +51,6 @@ Here is the AI Agent design within the n8n visual flow:
 
 👉 [Watch the Demo on Google Drive](https://drive.google.com/file/d/1X6ovRPQ0zWgQejIAU-poZjWYPfHoMkb7/view?usp=sharing)
 
-*(Replace with actual Drive link once uploaded)*
 
 ---
 
