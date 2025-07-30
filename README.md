@@ -1,4 +1,4 @@
-
+[
 # 🤖 AI-Powered Email Assistant using n8n + Google Gemini
 
 This project demonstrates how to create an AI Agent in [n8n](https://n8n.io) that interprets user chat messages and sends intelligent emails using natural language processing.
@@ -29,7 +29,7 @@ This project demonstrates how to create an AI Agent in [n8n](https://n8n.io) tha
 
 ## 📸 Workflow Diagram
 
-![Workflow Screenshot](./docs/Screenshot(48).png)
+![Workflow Screenshot](./docs/Screenshot (48).png)
 
 ---
 
@@ -58,3 +58,4 @@ This project demonstrates how to create an AI Agent in [n8n](https://n8n.io) tha
 - Dynamic email templates
 - Scheduled email reminders
 - Smart reply detection
+](https://drive.google.com/file/d/1X6ovRPQ0zWgQejIAU-poZjWYPfHoMkb7/view?usp=sharing)
